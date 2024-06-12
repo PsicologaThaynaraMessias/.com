@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Psicóloga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #f4f4f4;
+        }
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .about img {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            border-radius: 50%;
+        }
+        .about p {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .services img {
+            width: 100%;
+            height: auto;
+        }
+        .services .service {
+            margin-bottom: 20px;
+        }
+        .contact {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portfólio de Psicóloga</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section id="sobre" class="section about">
+            <h2>Sobre Mim</h2>
+            <img src="https://via.placeholder.com/200" alt="Foto de Perfil">
+            <p>Sou uma psicóloga dedicada, com experiência em ajudar indivíduos a superar desafios emocionais e comportamentais. Meu objetivo é fornecer um ambiente seguro e acolhedor para meus clientes explorarem seus sentimentos e desenvolverem estratégias eficazes para melhorar sua saúde mental.</p>
+        </section>
+        
+        <section id="servicos" class="section services">
+            <h2>Serviços</h2>
+            <div class="service">
+                <h3>Terapia Individual</h3>
+                <img src="https://via.placeholder.com/600x400" alt="Terapia Individual">
+                <p>Ofereço sessões de terapia individual focadas em ajudar meus clientes a lidar com questões como ansiedade, depressão, estresse e outros desafios emocionais.</p>
+            </div>
+            <div class="service">
+                <h3>Terapia de Casal</h3>
+                <img src="https://via.placeholder.com/600x400" alt="Terapia de Casal">
+                <p>Apoio casais a melhorarem sua comunicação, resolverem conflitos e fortalecerem seu relacionamento.</p>
+            </div>
+            <div class="service">
+                <h3>Grupos de Apoio</h3>
+                <img src="https://via.placeholder.com/600x400" alt="Grupos de Apoio">
+                <p>Conduzo grupos de apoio onde indivíduos podem compartilhar suas experiências e aprender uns com os outros em um ambiente seguro e solidário.</p>
+            </div>
+        </section>
+        
+        <section id="contato" class="section contact">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
